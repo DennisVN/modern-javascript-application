@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title> 
+</head>
+<body>
+    <div class="header-container">
+        <div class="time-date">
+            <div class="date-container">
+                <div class="time" id="time">00:00 <span id="am-pm"> PM</span></div>
+                <div class="date" id="date">Tuesday, 29 June</div>
+            </div>
+        </div>
+        <div class="input-field">
+            <input type="text" class="inputValue" id="value-city" placeholder="Type a city">
+            <button type="button" id="run">Click here</button>
+        </div>
+    </div>
+    <main class="container"> 
+        <div class="wrapper" id="hide">
+            <div class="zero-container">
+                <div id ="day-zero">
+                    <div class="location">
+                        <div class ="city"> <p>location</p></div>
+                        <div class ="date"><p>date</p></div>
+                    </div>
+                    <div class="current">
+                        <div class="temperature"><p>temperature</p></div>
+                        <div class="weather"><p>weather</p></div>
+                        <img class="weather-icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+                        <div class="min-max"><p>min-max comparison</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="forecast-container">
+                <div id="day-one">
+                    <div class="location-one">
+                        <div class ="date-one"><p>date</p></div>
+                    </div>
+                    <div class="current-one">
+                        <div class="temperature-one"><p>temperature</p></div>
+                        <div class="weather-one"><p>weather</p></div>
+                        <img class="weather-icon-one" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+                        <div class="min-max-one"><p>min-max comparison</p></div>
+                    </div>
+                </div>
+                <div id="day-two">
+                    <div class="location-two">
+                        <div class ="date-two"><p>date</p></div>
+                    </div>
+                    <div class="current-two">
+                        <div class="temperature-two"><p>temperature</p></div>
+                        <div class="weather-two"><p>weather</p></div>
+                        <img class="weather-icon-two" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+                        <div class="min-max-two"><p>min-max comparison</p></div>
+                    </div>
+                </div>
+                <div id="day-three">
+                    <div class="location-three">
+                        <div class ="date-three"><p>date</p></div>
+                    </div>
+                    <div class="current-three">
+                        <div class="temperature-three"><p>temperature</p></div>
+                        <div class="weather-three"><p>weather</p></div>
+                        <img class="weather-icon-three" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+                        <div class="min-max-three"><p>min-max comparison</p></div>
+                    </div>
+                </div>
+                <div id="day-four">
+                    <div class="location-four">
+                        <div class ="date-four"><p>date</p></div>
+                    </div>
+                    <div class="current-four">
+                        <div class="temperature-four"><p>temperature</p></div>
+                        <div class="weather-four"><p>weather</p></div>
+                        <img class="weather-icon-four" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+                        <div class="min-max-four"><p>min-max comparison</p></div>
+                    </div>
+                </div>
+                <div id="day-five">
+                    <div class="location-five">
+                        <div class ="date-five"><p>date</p></div>
+                    </div>
+                    <div class="current-five">
+                        <div class="temperature-five"><p>temperature</p></div>
+                        <div class="weather-five"><p>weather</p></div>
+                        <img class="weather-icon-five" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+                        <div class="min-max-five"><p>min-max comparison</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script> 
+</body>
+</html>
+<!--ADD HEADER AND MAIN-->
