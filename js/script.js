@@ -1,9 +1,10 @@
 import {setDate} from "./date.js";
+import {clock} from "./clock.js";
 
 let current = new Date();
 const button = document.querySelector('.button');
 
-const timeEl = document.getElementById('time');
+
 const dateEl = document.getElementById('date');
 const cityDiv = document.querySelector('.location .city');
 const dateDiv = document.querySelector('.location .date');
@@ -91,15 +92,7 @@ function displayResults (weather) {
     minMaxDayFive.innerText = `feels like ` + Math.round(weather.list[39].main.feels_like) + `°c`;
     weatherIconDayFive.innerHTML = document.querySelector('.weather-icon-five').src=(`https://openweathermap.org/img/wn/${weather.list[39].weather[0].icon}@2x.png`);
 }
-//Clock & Date
-setInterval(() => { 
-    const time = new Date();
-    const hour = time.getHours();
-    const hoursin24HrFormat = hour > 13 ? hour: hour; 
-    const minutes = time.getMinutes();
-    const amPm = hour >=12 ? "PM" : "AM";
 
-    timeEl.innerHTML = hoursin24HrFormat + ':' + minutes + '' + `<span id="am-pm">${amPm}</span>` 
-}, 1000)
+
 
 

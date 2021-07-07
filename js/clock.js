@@ -1,4 +1,5 @@
 export const clock = setInterval(() => { 
+    const timeEl = document.getElementById('time');
     const time = new Date();
     const hour = time.getHours();
     const hoursin24HrFormat = hour > 13 ? hour: hour; 
