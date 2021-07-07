@@ -1,4 +1,4 @@
-import setDate from "./date";
+import {setDate} from "./date.js";
 
 let current = new Date();
 const button = document.querySelector('.button');
