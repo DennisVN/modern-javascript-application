@@ -3,8 +3,6 @@ import {clock} from "./clock.js";
 
 let current = new Date();
 const button = document.querySelector('.button');
-
-
 const dateEl = document.getElementById('date');
 const cityDiv = document.querySelector('.location .city');
 const dateDiv = document.querySelector('.location .date');
