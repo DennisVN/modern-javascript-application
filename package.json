@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/DennisVN/modern-javascript-application/issues"
   },
-  "homepage": "https://github.com/DennisVN/modern-javascript-application#readme"
+  "homepage": "https://github.com/DennisVN/modern-javascript-application#readme",
+  "dependencies": {
+    "webpack": "^5.43.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
 }
